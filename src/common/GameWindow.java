@@ -16,6 +16,9 @@ public class GameWindow extends JFrame
 
         createGameScreen();
 
+        // To perform actions on GameWindow when a key is pressed, modify Controls.java
+        this.addKeyListener(new Controls(this));
+
         setTitle("Swiggity swag, what's in the bag?");
         setDefaultCloseOperation(EXIT_ON_CLOSE);
 

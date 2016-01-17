@@ -60,6 +60,9 @@ public class Startup extends JFrame
     public static void main(String[] args)
     {
         new Startup().setVisible(true);
+
+        while (true) {}
+
     }
 
 }
